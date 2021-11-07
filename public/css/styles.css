@@ -1,0 +1,206 @@
+body{
+  font-family: "Roboto", sans-serif;
+}
+
+h1{
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+h3{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  }
+
+p{
+  color:black;
+}
+
+
+/* nav-bar */
+.navbar{
+  padding-bottom: 1rem;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.navbar-brand{
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  /* padding-left: 15%; */
+}
+
+.nav-item{
+  padding: 0 10px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.navbar-custom {
+  background-color: #93abd3;
+}
+
+
+
+
+#cover{
+  background-color: #faf6f0;
+  color: black;
+}
+
+.cover-container{
+  padding: 8% 15% 3%;
+}
+
+.food{
+  position: relative;
+  margin-left: 550px;
+  margin-top: -300px;
+  z-index: 0;
+}
+
+.letter{
+  padding-left: 15px;
+}
+
+.card {
+  border-radius: 25px;
+  position: relative;
+  padding: 25px 15px;
+  background-color: #a2d5f2;
+  margin-top: 50px;
+  margin-left: 250px;
+  /* margin-right: 100px; */
+  height: 200px;
+  box-shadow: 0 2px 5px #ccc;
+  text-align: left;
+  width: 350px;
+  z-index: 1;
+}
+
+.top {
+  border-radius: 25px 25px 0 0;
+  height: 80px;
+  width: 100%;
+  background-color: #93abd3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+
+.name {
+  font-size: 2em;
+  color: #2d3436;
+  display: flex;
+  flex: 1;
+  margin: 5% 20px 0;
+}
+
+.card img {
+  margin: 30px 20px 0 0;
+}
+
+.circle-img {
+  border-radius: 50%;
+  border: 7px solid #fff;
+  width: 120px;
+  height: 120px;
+  transform: rotate(10deg);
+}
+
+.bottom {
+  margin-top: 70px;
+}
+
+.info {
+  margin: 20px 0;
+  color: #1a7e76;
+}
+
+.proj-brief {
+  min-height: 3;
+}
+
+/* feature section */
+#skills{
+  padding:7% 15%;
+  background-color: white;
+  position: relative;
+  text-align: center;
+}
+
+.skill-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.skill-icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.skill-icon:hover{
+  color:#ff4c68;
+}
+
+#projects{
+  padding:7% 15%;
+  text-align: center;
+  background-color: #93abd3;
+  color:white;
+
+}
+
+.projects-img{
+  height: 200px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+/* call to action */
+#resume{
+  background-color: #93abd3;
+  color: white;
+  text-align: center;
+  padding: 2% 15%;
+}
+
+/* Download Buttons */
+.download-buttons{
+  margin:2% 3%;
+}
+
+/* footer */
+#footer{
+  text-align: center;
+  padding: 2% 15%;
+}
+
+.footer-img{
+  margin:1.5rem;
+}
+
+@media (max-width: 1028px) {
+  #cover {
+    text-align: center;
+  }
+
+
+}
