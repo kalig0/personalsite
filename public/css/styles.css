@@ -52,8 +52,6 @@ p{
 }
 
 
-
-
 #cover{
   background-color: #faf6f0;
   color: black;
@@ -81,7 +79,6 @@ p{
   background-color: #a2d5f2;
   margin-top: 50px;
   margin-left: 250px;
-  /* margin-right: 100px; */
   height: 200px;
   box-shadow: 0 2px 5px #ccc;
   text-align: left;
@@ -155,12 +152,15 @@ p{
   color:#ff4c68;
 }
 
+.skill-title:{
+  min-height: 20em;;
+}
+
 #projects{
   padding:7% 15%;
   text-align: center;
   background-color: #93abd3;
   color:white;
-
 }
 
 .projects-img{
@@ -171,6 +171,7 @@ p{
 
 .carousel-item{
     padding: 7% 15%;
+    height: 600px !important;
 }
 
 
@@ -197,10 +198,20 @@ p{
   margin:1.5rem;
 }
 
-@media (max-width: 1028px) {
+/* @media (max-width: 1028px) {
   #cover {
     text-align: center;
   }
+  .carousel-item{
+    height: 600px;
+  }
+} */
 
-
-}
+/* @media (min-width: 768px) {
+  #cover {
+    text-align: center;
+  }
+  .carousel-item{
+    height: 600px;
+  }
+} */

@@ -1,23 +1,24 @@
 const express = require("express");
 const fs = require("fs");
 const ejs = require("ejs");
-//         const request = require("request");
-// const { DownloaderHelper } = require('node-downloader-helper');
+
 
 const app = express();
 app.set('view engine', 'ejs');
 app.use(express.static("public"));
 
+//get current year for footer
+let today= new Date();
+let currentYear = today.getFullYear();
+
 app.get("/", function(req,res){
-  res.render("index");
+  res.render("index", {currentYear: currentYear});
 }
 )
 
-// endpoint for /resume
 app.get("/resume", (req, res) => {
   res.download("./public/DanielYuResume.pdf");
 });
-
 
 let port = process.env.PORT;
 if (port == null || port == "") {
