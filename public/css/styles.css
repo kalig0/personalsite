@@ -198,20 +198,16 @@ p{
   margin:1.5rem;
 }
 
-/* @media (max-width: 1028px) {
-  #cover {
-    text-align: center;
-  }
-  .carousel-item{
-    height: 600px;
-  }
-} */
+.math-title{
+  margin-bottom: 1em;
+}
 
-/* @media (min-width: 768px) {
-  #cover {
-    text-align: center;
-  }
-  .carousel-item{
-    height: 600px;
-  }
-} */
+.math-img{
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.get-file{
+  background-color: #fdf6f0;
+  text-align: center;
+}

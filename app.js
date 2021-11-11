@@ -17,8 +17,22 @@ app.get("/", function(req,res){
 )
 
 app.get("/resume", (req, res) => {
-  res.download("./public/DanielYuResume.pdf");
+  res.download("./public/resource/DanielYuResume.pdf");
 });
+
+app.get("/gdp", function(req,res){
+  res.render("gdpModel", {currentYear: currentYear});
+}
+)
+
+app.get("/report", (req, res) => {
+  res.download("./public/resource/report.pdf");
+});
+
+app.get("/codes", (req, res) => {
+  res.download("./public/resource/codes.pdf");
+});
+
 
 let port = process.env.PORT;
 if (port == null || port == "") {

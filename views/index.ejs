@@ -63,12 +63,10 @@
             <p class=letter>Hi I’m Daniel, currently a senior college student at UC Santa Barbara. My major is Applied Mathematics, but I also love computer science and programming. I am looking for a software development internship opportunity to
               utilize my analysis and programming skills.</p>
             <p class=letter>I am fluent in many languages including Python, Java, C++, JavaScript, HTML, CSS, etc and I am familiar with Bootstrap, DOM, jQuery, Node.js, Express, RESTful APIs, Github, EJS, MongoDB, and React.js. I have set up a
-              couple of websites to host some of my projects, which illustrate my skills of designing web pages, coding servers, and managing databases.</p>
+              couple of websites to host some of my projects, which illustrate my skills of designing web pages, developing servers, and managing databases.</p>
             <p class=letter>In the blog website project, I built a blog framework where the owner of the blog can write and publish blogs, while readers can read the blog or register for email updates. I used HTML, CSS, Bootstrap, JavaScript to build
               the front end, used Express, EJS, RESTful API to create the back end, used MongoDB and Mongoose to manage blog content and reader registration data, and used Mailchimp to send email updates of new blogs.</p>
-            <p class=letter>Last year, I worked on a project where we built a statistical model to predict future GDP. We investigated quarterly economic and demographic data in the past 100 years from various databases and developed an algorithm to
-              identify the driving forces of future GDP. We explored and preprocessed data including data visualization, handling missing values, feature encoding, and standardization. Using Python, we wrote code for multiple regressions and
-              determined that least-squares regression generated the smallest amount of error. In the end, we created a visual presentation of our findings, enabling the prediction of future GDP.</p>
+            <!-- <p class=letter>Last year, I worked on a class project where we created a statistical model to measure US GDP and evaluated its application in predicting future GDP.  We obtained quarterly US GDP data in the past 75 years from St. Louis Fed.  Using Python, we wrote codes for multiple regressions and determined that the error terms generated from fitting linear polynomial models to GDP data were smaller than those from logarithmic and exponential models.  We found 24th degree polynomial model was the best based on training data, however its prediction was far from accurate with the test data set.  We thought other methods such as neural network could build better GDP measure model.  Meanwhile, the overfitting problem should be watched.</p> -->
             <p class=letter>Thank you for your attention, and I look forward to hearing from you. If you need more information, please don’t hesitate to contact me.</p>
           </div>
         </div>
@@ -100,16 +98,31 @@
         <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
         <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="4" aria-label="Slide 5"></button>
       </div>
 
       <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="12000">
+        <div class="carousel-item active">
+          <h3>Predicting Future Real GDP in the US.</h3>
+          <img class="projects-img" src="images/pythongdp.png" alt="math-image">
+          <div>Wrote codes in Python to run regressions on quarterly US GDP data in the past 75 years.</div>
+          <div>Built and evaluated models with the least squares method.</div>
+          <div><em><a href="/gdp">Click to see the project</a></em></div>
+        </div>
+        <div class="carousel-item" data-bs-interval="12000">
           <h3>A blog: the owner can publish and readers can sign up for email update.</h3>
           <img class="projects-img" src="images/lovesun.jpg" alt="sun-image">
           <div>Used HTML, CSS, Bootstrap, JavaScript, Node.js, Express, EJS, RESTful API to develop front-end and back-end.</div>
           <div>Used MoogoDB and Mongoose to manage blog content and reader info.</div>
           <div>Used Mailchimp for email distribution.</div>
           <div><em><a href="https://quiet-oasis-92818.herokuapp.com/">Click to visit the blog website</a></em></div>
+        </div>
+        <div class="carousel-item" data-bs-interval="6000">
+          <h3 class="projects-text">Check the weather of any city over the world.</h3>
+          <img class="projects-img" src="images/weather.jpg" alt="city-weather">
+          <div>Used HTML, CSS, Bootstrap, JavaScript, Node.js, Express, EJS, API.</div>
+          <div>Used weather data from OpenWeather.</div>
+          <div><em><a href="http://still-fortress-14734.herokuapp.com/">Click to check weather</a></em></div>
         </div>
         <div class="carousel-item">
           <h3 class="projects-text">Have fun with my Simon Says game.</h3>
@@ -124,13 +137,6 @@
             <div>Used HTML, CSS, JavaScript, jQuery.</div>
             <div><em><a href="https://stormy-refuge-40150.herokuapp.com/">Click to play the drum set</a></em></div>
           </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="6000">
-          <h3 class="projects-text">Check the weather of any city over the world.</h3>
-          <img class="projects-img" src="images/weather.jpg" alt="city-weather">
-          <div>Used HTML, CSS, Bootstrap, JavaScript, Node.js, Express, EJS, API.</div>
-          <div>Used weather data from OpenWeather.</div>
-          <div><em><a href="http://still-fortress-14734.herokuapp.com/">Click to check weather</a></em></div>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
